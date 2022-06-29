@@ -361,7 +361,8 @@ hr {
 }
 
 .hero .hero__img {
-    max-width: 500px;
+    max-width: 80%;
+    width: 600px;
     display: block;
     margin: auto;
 }
