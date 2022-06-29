@@ -4,25 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blogs | Jagrut</title>
-    <link href="./styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon-images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-images/favicon-16x16.png">
+    <link rel="manifest" href="./favicon-images/site.webmanifest">
+    <link rel="mask-icon" href="./favicon-images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="author" content="Jagrut Sharma">
+    <meta name="keywords" content="HTML, CSS, Javascript, Developer, Web Development">
+    <meta name="description" content="Hi, My name is Jagrut. An upcoming developer. This is my website that serves as my portfolio and also includes some blogs">
+
+    <title>Jagrut | Blogs</title>
 </head>
 <body>
 
-    <nav class="nav container">
-        <div class="nav-brand">Jagrut Sharma</div>
-        <ul class="list-nobullet nav-list">
-            <li class="list-inline">
-                <a href="./index.html" class="link">Home</a>
-            </li>
-            <li class="list-inline">
-                <a href="./projects.html" class="link">Projects</a>
-            </li>
-            <li class="list-inline">
-                <a href="./blogs.html" class="link link-active">Blogs</a>
-            </li>
-        </ul>
-    </nav>
+    <header class="header">
+        <h1 class="logo"><a href="/" class="logo-link">Jagrut&nbsp;Sharma</a></h1>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span></span>
+        </label>
+        <nav class="nav">
+            <ul class="list list-non-bullet">
+                <li class="list-padding"><a class="normal-text-link link-active" href="/">Home</a></li>
+                <li class="list-padding"><a class="normal-text-link" href="/">Projects</a></li>
+                <li class="list-padding"><a class="normal-text-link" href="/">Blogs</a></li>
+                <li class="list-padding"><a class="normal-text-link" href="#footer-scroll">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
     <h1>Upcoming Project......</h1>
 </body>
