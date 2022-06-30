@@ -101,7 +101,7 @@ hr {
 }
 
 .btn-1:hover {
-    transform: translate(-6px, 0);
+    transform: translate(-6px, -6px);
 }
 
 .btn-1:hover::after {
@@ -116,6 +116,7 @@ hr {
 
 .btn-2 {
     color: var(--secondary-color);
+    z-index: 0;
 }
 
 .btn-2::after,
@@ -129,7 +130,7 @@ hr {
     bottom: 0;
     right: 0;
     top: 0;
-    z-index: 0;
+    z-index: -1;
     transition: transform 0.3s ease;
 }
 
@@ -147,10 +148,10 @@ hr {
 
 /* Button-3 */
 
-.div-inline {
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+.div-flex {
+    display: inline-flex;
+    margin: 1rem 0;
+    margin-left: 1.5rem;
     justify-content: center;
 }
 
@@ -161,6 +162,7 @@ hr {
     border-radius: 30px;
     box-shadow: 0 0 0 0 rgba(249, 168, 38, 0.5), 0 0 0 0 rgba(0, 128, 0, 0.5);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    z-index: 0;
 }
 
 .btn-3::after {
@@ -188,6 +190,7 @@ hr {
 .btn-3:hover::after {
     transform: rotate(150deg);
 }
+
 
 /* Navigation */
 
@@ -403,7 +406,7 @@ hr {
 }
 
 .section-ow {
-    background-color: var(--off-white);
+    background: var(--off-white);
 }
 
 .section .container .section--img {
