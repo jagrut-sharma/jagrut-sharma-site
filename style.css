@@ -61,6 +61,7 @@ hr {
 
 .list-nobullet {
     list-style: none;
+    padding-inline-start: 0;
 }
 
 .list-inline {
