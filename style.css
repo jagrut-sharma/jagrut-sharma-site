@@ -452,3 +452,13 @@ hr {
     background: var(--primary-color);
     color: #000;
 }
+
+.section .container--blog{
+    max-width: 70%;
+    text-align: justify;
+    margin: auto;
+}
+
+.section .container--blog .blog--heading{
+    text-align: center;
+}
