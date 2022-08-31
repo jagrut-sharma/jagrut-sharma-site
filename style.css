@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -135,7 +135,7 @@ hr {
     transition: transform 0.3s ease;
 }
 
-.btn-2:hover{
+.btn-2:hover {
     color: var(--green-color);
 }
 
@@ -448,17 +448,17 @@ hr {
     padding-inline-start: 0px;
 }
 
-::selection{
+::selection {
     background: var(--primary-color);
     color: #000;
 }
 
-.section .container--blog{
+.section .container--blog {
     max-width: 70%;
     text-align: justify;
     margin: auto;
 }
 
-.section .container--blog .blog--heading{
+.section .container--blog .blog--heading {
     text-align: center;
 }
