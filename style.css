@@ -152,8 +152,9 @@ hr {
 .div-flex {
     display: inline-flex;
     margin: 1rem 0;
-    margin-left: 1.5rem;
+    /* margin-left: 1.5rem; */
     justify-content: center;
+    gap: 1.5rem;
 }
 
 .btn-3 {

@@ -20,6 +20,7 @@
 
     <title>Jagrut | Blogs</title>
 </head>
+
 <body>
 
     <header class="header">
@@ -46,12 +47,17 @@
     <article class="article">
 
         <section>
-            <p class="intro-blog">Selectors can be a pain for beginners to understand, I know it was for me. This blog will help fellow learners to properly understand the different selectors present and syntax that can be used to select a particular element. Here are some of the selectors that you will use a lot as a beginner:</p>
+            <p class="intro-blog">Selectors can be a pain for beginners to understand, I know it was for me. This blog
+                will help fellow learners to properly understand the different selectors present and syntax that can be
+                used to select a particular element. Here are some of the selectors that you will use a lot as a
+                beginner:</p>
         </section>
 
         <section>
             <h1 class="blog-main-heading">1. Universal Selector</h1>
-            <p>Universal Selector selects all of the elements present in the html. It does not select the pseudo classes and elements (:after, :before and :hover). It is suggested to use as less as possible. It is better to use selectors that are more specific. Can be used for applying box-sizing or font properties.</p>
+            <p>Universal Selector selects all of the elements present in the html. It does not select the pseudo classes
+                and elements (:after, :before and :hover). It is suggested to use as less as possible. It is better to
+                use selectors that are more specific. Can be used for applying box-sizing or font properties.</p>
             <figure>
                 <img class="img-universal-selector" src="./selectors-blog-images/1. Universal.png">
             </figure>
@@ -59,7 +65,8 @@
 
         <section>
             <h1 class="blog-main-heading">2. Type Selectors</h1>
-            <p>These types of selectors are used to select elements by using the tag name that is used to wrap the element. Just write down the name of the element and then write its properties that you want.</p>
+            <p>These types of selectors are used to select elements by using the tag name that is used to wrap the
+                element. Just write down the name of the element and then write its properties that you want.</p>
             <figure>
                 <img class="img-blog-typeselector-1" src="./selectors-blog-images/2. Type-html.png">
                 <img class="img-blog-typeselector-2" src="./selectors-blog-images/2.1 Type-css.png">
@@ -69,65 +76,87 @@
 
         <section>
             <h1 class="blog-main-heading">3. Class and ID Selectors</h1>
-            <p>The elements are given class name and an id to select particular element. The class name can be common for multiple elements but the id is unique to each element even if it is of same type. The class name is selected by writing a “.” In front of class name whereas for selecting an element with a specific id, “#” is used. Also, ID has higher specificity than class, that means if the same elements are selected using class and ID, properties defined in ID will be executed.</p>
+            <p>The elements are given class name and an id to select particular element. The class name can be common
+                for multiple elements but the id is unique to each element even if it is of same type. The class name is
+                selected by writing a “.” In front of class name whereas for selecting an element with a specific id,
+                “#” is used. Also, ID has higher specificity than class, that means if the same elements are selected
+                using class and ID, properties defined in ID will be executed.</p>
 
             <figure>
                 <img class="img-blog-class-id-selector-1" src="./selectors-blog-images/3. Class and ID-html.png">
                 <img class="img-blog-class-id-selector-2" src="./selectors-blog-images/3.1 Class and ID-CSS.png">
-                <img class="img-blog-class-id-selector-3" src="./selectors-blog-images/3.2 Class and id selector-result.PNG">
+                <img class="img-blog-class-id-selector-3"
+                    src="./selectors-blog-images/3.2 Class and id selector-result.PNG">
             </figure>
         </section>
 
         <section>
             <h1 class="blog-main-heading">4. Attribute selector</h1>
-            <p>These selectors are used to select elements either based on an attribute or on values assigned to them. Some different ways of selecting attributes are:</p>
+            <p>These selectors are used to select elements either based on an attribute or on values assigned to them.
+                Some different ways of selecting attributes are:</p>
             <ol>
-                <li><span style="font-weight: 600;">element[attribute]:</span> This will select only element that has attribute mentioned in bracket. In below example, this selector will only select the middle element of "img" tag that has alt attribute.
-                    <div> 
-                        <img class="img-blog-attribute-1" src="./selectors-blog-images/4. Attribute.png"> 
+                <li><span style="font-weight: 600;">element[attribute]:</span> This will select only element that has
+                    attribute mentioned in bracket. In below example, this selector will only select the middle element
+                    of "img" tag that has alt attribute.
+                    <div>
+                        <img class="img-blog-attribute-1" src="./selectors-blog-images/4. Attribute.png">
                         <img class="img-blog-attribute-2" src="./selectors-blog-images/4.1 Attribute-CSS.png">
                     </div>
                 </li>
 
-                <li><span style="font-weight: 600;">element[attribute= value]:</span> This selects the element that has specified value of the mentioned attribute. In below image, this selector will only work on the first element that has “_blank” value for target attribute.
-                    <div> 
+                <li><span style="font-weight: 600;">element[attribute= value]:</span> This selects the element that has
+                    specified value of the mentioned attribute. In below image, this selector will only work on the
+                    first element that has “_blank” value for target attribute.
+                    <div>
                         <img class="img-blog-attribute-3" src="./selectors-blog-images/4.2 attribute-html.png">
-                        
+
                         <img class="img-blog-attribute-4" src="./selectors-blog-images/4.3 attribute-css.png">
-                        
+
                     </div>
                 </li>
 
                 <li>
-                    <span style="font-weight: 600;">element[attribute|= value]:</span> It selects elements that start with the value. For e.g.: 
-                    a[class|= top] will select link(a) element that contains class attribute that starts with top value. The top needs to be a whole word or followed by <span style="font-weight: 600;">“-"</span>, only then it will get selected. Here only first and second <a> will get selected.
+                    <span style="font-weight: 600;">element[attribute|= value]:</span> It selects elements that start
+                    with the value. For e.g.:
+                    a[class|= top] will select link(a) element that contains class attribute that starts with top value.
+                    The top needs to be a whole word or followed by <span style="font-weight: 600;">“-"</span>, only
+                    then it will get selected. Here only first and second <a> will get selected.
 
-                        <div> 
+                        <div>
                             <img class="img-blog-attribute-5" src="./selectors-blog-images/4.4 attribute-html.png">
-                            
+
                         </div>
                 </li>
-                     
+
                 <li>
-                    <span style="font-weight: 600;">element[attribute^= “value”]:</span> selects element whose attribute begins with value. a[class^= top]. From the above image, all three elements will get selected as they are starting with the word top.
+                    <span style="font-weight: 600;">element[attribute^= “value”]:</span> selects element whose attribute
+                    begins with value. a[class^= top]. From the above image, all three elements will get selected as
+                    they are starting with the word top.
                 </li>
 
                 <li>
-                    <span style="font-weight: 600;">element[attribute$= “value”]:</span> selects element whose attribute ends with value. a[class^= top]. In below example, all three elements will get selected as they are ending with the word top.
-                    <div> 
+                    <span style="font-weight: 600;">element[attribute$= “value”]:</span> selects element whose attribute
+                    ends with value. a[class^= top]. In below example, all three elements will get selected as they are
+                    ending with the word top.
+                    <div>
                         <img class="img-blog-attribute-6" src="./selectors-blog-images/4.5 attribute-html.png">
                     </div>
-                    If we <span style="font-weight: 600;">combine above two operators</span>, we can use it for selecting elements that start with a particular value and end with another one. Here it selects element that have href attribute that starts with “https:” and end with “.com”
-                    <div> 
+                    If we <span style="font-weight: 600;">combine above two operators</span>, we can use it for
+                    selecting elements that start with a particular value and end with another one. Here it selects
+                    element that have href attribute that starts with “https:” and end with “.com”
+                    <div>
                         <img class="img-blog-attribute-7" src="./selectors-blog-images/4.6 attribute-css.png">
                     </div>
                 </li>
 
                 <li>
-                    <span style="font-weight: 600;">element [attribute*= “value”]:</span> Selects elements that contain the word “value”. In below example it selects elements that contain the word “tip” in class attribute. It will select the word even if it is not separated,, the word within " " must be conatined in the attribute's value. Hence all three elements will get selected.
-                    <div> 
+                    <span style="font-weight: 600;">element [attribute*= “value”]:</span> Selects elements that contain
+                    the word “value”. In below example it selects elements that contain the word “tip” in class
+                    attribute. It will select the word even if it is not separated,, the word within " " must be
+                    conatined in the attribute's value. Hence all three elements will get selected.
+                    <div>
                         <img class="img-blog-attribute-8" src="./selectors-blog-images/4.7 attribut-html.png">
-                        
+
                         <img class="img-blog-attribute-9" src="./selectors-blog-images/4.8 attribute css.png">
                     </div>
                 </li>
@@ -136,16 +165,25 @@
 
         <section>
             <h1 class="blog-main-heading">5. Pseudo Class Selectors</h1>
-            <p>"<span style="font-weight: 600;">:nth-child(n)</span>" and "<span style="font-weight: 600;">:nth-last-child(n)</span>" are some of the important pseudo class selectors that you will use as beginners.</p>
-            <p><span style="font-weight: 600;">element:nth-child(n)</span> selects every element that is nth child of its parent. Like div:nth-child(3), means all the div element in your html that are 3rd children of their parents will get selected, even if it is in body and not in other container. If we write odd and even instead of “n”, it will select the odd/even elements.</p>
-            <p><span style="font-weight: 600;">element:nth-last-child(n)</span> does all of the same things, it just counts from the last.</p>
+            <p>"<span style="font-weight: 600;">:nth-child(n)</span>" and "<span
+                    style="font-weight: 600;">:nth-last-child(n)</span>" are some of the important pseudo class
+                selectors that you will use as beginners.</p>
+            <p><span style="font-weight: 600;">element:nth-child(n)</span> selects every element that is nth child of
+                its parent. Like div:nth-child(3), means all the div element in your html that are 3rd children of their
+                parents will get selected, even if it is in body and not in other container. If we write odd and even
+                instead of “n”, it will select the odd/even elements.</p>
+            <p><span style="font-weight: 600;">element:nth-last-child(n)</span> does all of the same things, it just
+                counts from the last.</p>
         </section>
 
         <br>
 
-        <p class="last">These were all of the basic selectors that will help you write better CSS and select appropriate element based on your situation, if you want to learn more about selectors you can visit <a class="link-last" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank"> here</a>. Thank you for reading</p>
+        <p class="last">These were all of the basic selectors that will help you write better CSS and select appropriate
+            element based on your situation, if you want to learn more about selectors you can visit <a
+                class="link-last" href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors" target="_blank">
+                here</a>. Thank you for reading</p>
 
-        
+
 
     </article>
 
@@ -169,4 +207,5 @@
     </footer>
 
 </body>
+
 </html>
