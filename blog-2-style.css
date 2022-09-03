@@ -239,7 +239,6 @@ body {
 
 .blog-header .blog-heading-focus {
     color: var(--primary-color);
-    
 }
 
 .article {
@@ -250,8 +249,135 @@ body {
 
 .article .blog-main-heading {
     text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.7rem;
+    margin: 0.5rem;
+    color: var(--green-color);
+}
+
+.article section{
+    font-size: 1.1rem;
+}
+
+.article p{
+    line-height: 1.6rem;
+}
+
+.article section figure{
+    text-align: center;
+}
+
+.intro-blog{
+    margin-top: 0;
+}
+
+.article section ol li{
+    font-size: 1.1rem;
+    line-height: 1.6rem;
+    margin-bottom: 0.45em;
+}
+
+.article section ol li::marker{
+    font-weight: bold;
+}
+
+.article section ol li div{
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Image of blogs */
+
+.article section figure{
+    margin: 0;
+}
+
+.article section figure .img-universal-selector{
+    padding: 1rem;
+    width: 30rem;
+}
+
+.article section figure .img-blog-typeselector-1{
+    padding: 1rem;
+    height: 20rem;
+}
+
+.article section figure .img-blog-typeselector-2{
+    padding: 1rem;
+    width: 30rem;
+}
+
+.article section figure .img-blog-typeselector-3{
+    padding: 1rem;
+    height: 20rem;
+}
+
+.article section figure .img-blog-class-id-selector-1, .article section figure .img-blog-class-id-selector-2{
+    padding: 1rem;
+    height: 25rem;
+}
+
+.article section figure .img-blog-class-id-selector-3{
+    padding: 1rem;
+    width: 28rem;
+}
+
+.article section ol li div .img-blog-attribute-1{
+    padding: 1rem;
+    width: 28rem;
+}
+
+.article section ol li div .img-blog-attribute-2{
+    padding: 1rem;
+    height: 23rem;
+}
+
+.article section ol li div .img-blog-attribute-3{
+    padding: 1rem;
+    height: 20rem;
+}
+
+.article section ol li div .img-blog-attribute-4{
+    padding: 1rem;
+    height: 18.5rem;
+}
+
+.article section ol li div .img-blog-attribute-5{
+    padding: 1rem;
+    width: 30rem;
+}
+
+.article section ol li div .img-blog-attribute-6{
+    padding: 1rem;
+    width: 31rem;
+}
+
+.article section ol li div .img-blog-attribute-7{
+    padding: 1rem;
+    height: 16rem;
+}
+
+.article section ol li div .img-blog-attribute-8{
+    padding: 1rem;
+    height: 16rem;
+}
+
+.article section ol li div .img-blog-attribute-9{
+    padding: 1rem;
+    height: 16rem;
+}
+
+.article .last{
+    margin-bottom: 3rem;
+    font-size: 1.1rem;
+}
+
+.article .last .link-last{
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.article .last .link-last:hover{
+    font-weight: 800;
     color: var(--green-color);
 }
 
