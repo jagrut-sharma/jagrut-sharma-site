@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./blog-style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon-images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-images/favicon-16x16.png">
@@ -38,25 +38,29 @@
         </nav>
     </header>
 
-    <header class="hero">
-
-        <h1 class="hero__heading">This is a <span class="hero-heading-focus">dummy blog</span> </h1>
-    
+    <header class="blog-header">
+        <h1 class="blog-heading">Help with <span class="blog-heading-focus">Markdown</span></h1>    
     </header>
 
-    <section class="section">
-        <article class="container--blog">
+    <article class="article">
+       
+        <section>
+
+            <p>Have you ever visited any GitHub repository and found a project that you think is cool and want to make something like that or make it better. You would have noticed that there is a “README.md” file included that explains how the project works and what its features are in details. This “.md” file is known as markdown. It is a simple text format that is converted to HTML, without the need for writing tags. It is used in blogs, forums, readme file.</p>
+                
+            <p>It is used where we don’t need the full features of html like class, id, other attributes but just want the formatting. Main emphasis is given to readability. Here are some of the tips that would help you in writing a markdown.</p>
+
+        </section>
+
+        <p class="fact">Fun fact: Even Wikipedia uses a specialised markdown that they call as <span style="font-weight: 600;">wikitext</span>.</p>
+
+        <section>
+            <h1 class="blog-main-heading">Heading</h1>
+            <p>The “#” keyword is used for defining a heading in markdown. There are six headings available that are defined based on number of “#” written before text.</p>
+
             
-            <h1 class="blog--heading">Lorem ipsum dolor sit amet.</h1> <br>
-            
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse laboriosam vero quos rem libero totam quis sunt, nulla quisquam aut enim perferendis tempora in sint amet, consectetur suscipit nesciunt. Eveniet sequi minus autem! Nam suscipit ea totam doloribus a quod inventore! Vel id atque officia, cum ipsum autem sint?</p>
-
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga magni, vero id placeat, consequatur pariatur aut veritatis dolorem numquam, molestias at. Perspiciatis eaque cumque ut quo magni sunt, quas reiciendis nisi placeat aperiam doloremque rerum commodi sequi, beatae corrupti distinctio maiores exercitationem, voluptas repellendus deserunt quam architecto perferendis dolorum! Aliquam necessitatibus fugit maiores, possimus, culpa excepturi ut vel aperiam sapiente quam aspernatur velit. Explicabo reiciendis doloremque ut, reprehenderit ipsa necessitatibus odit id, eligendi consectetur hic libero in, voluptatum at eaque?</p>
-
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse laboriosam vero quos rem libero totam quis sunt, nulla quisquam aut enim perferendis tempora in sint amet, consectetur suscipit nesciunt. Eveniet sequi minus autem! Nam suscipit ea totam doloribus a quod inventore! Vel id atque officia, cum ipsum autem sint?</p>
-
-        </article>
-    </section>
+        </section>
+    </article>
 
     <footer id="footer-scroll" class="footer">
         <p class="footer__header">Connect with me on:</p>
