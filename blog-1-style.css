@@ -252,6 +252,7 @@ body {
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 0.5rem;
+    color: var(--green-color);
 }
 
 .article .fact{
@@ -260,6 +261,99 @@ body {
     background-color: antiquewhite;
     padding: 0.5rem;
     border-left: 5px solid #fc9105 ;
+}
+
+.article section{
+    font-size: 1.1rem;
+}
+
+.article p a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.article p a:hover{
+    color: var(--green-color);
+    font-weight: 800;
+}
+
+.article .last{
+    margin-bottom: 3rem;
+}
+
+
+/* Images in blogs */
+
+.article section figure{
+    text-align: center;
+}
+
+.article section figure .img-blog-heading-1{
+    width: 20rem;
+    padding: 1rem;
+}
+
+.article section figure .img-blog-heading-2{
+    padding: 1rem;
+    height: 17.5rem;
+    width: 20rem;
+}
+
+.article section figure .img-blog-formatting-1{
+    padding: 1rem;
+    width: 22rem;
+}
+
+.article section figure .img-blog-formatting-2{
+    padding: 1rem;
+    height: 15rem;
+}
+
+.article section figure .img-blog-link-1{
+    padding: 1rem;
+    width: 25rem;
+}
+
+.article section figure .img-blog-link-2{
+    padding: 1rem;
+    height: 19.3rem;
+}
+
+.article section figure .img-blog-image-1{
+    padding: 1rem;
+    width: 29rem;
+    display: block;
+    margin: auto;
+}
+
+.article section p{
+    line-height: 1.6rem;
+}
+
+.article section figure .img-blog-image-2{
+    padding: 1rem;
+    height: 22rem;
+}
+
+.article section figure .img-blog-bullet-1{
+    padding: 1rem;
+    width: 25rem;
+}
+
+.article section figure .img-blog-bullet-2{
+    padding: 1rem;
+    height: 19.5rem;
+}
+
+.article section figure .img-blog-code-1{
+    padding: 1rem;
+    width: 25rem;
+}
+
+.article section figure .img-blog-code-1{
+    padding: 1rem;
+    height: 20rem;
 }
 
 /* Footer css */
@@ -280,6 +374,6 @@ body {
 }
 
 ::selection {
-    background: var(--primary-color);
+    background: #eddf95;
     color: #000;
 }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./blog-style.css">
+    <link rel="stylesheet" href="./blog-1-style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="./favicon-images/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-images/favicon-16x16.png">
@@ -20,6 +20,7 @@
 
     <title>Jagrut | Blogs</title>
 </head>
+
 <body>
 
     <header class="header">
@@ -39,27 +40,108 @@
     </header>
 
     <header class="blog-header">
-        <h1 class="blog-heading">Help with <span class="blog-heading-focus">Markdown</span></h1>    
+        <h1 class="blog-heading">Help with <span class="blog-heading-focus">Markdown</span></h1>
+        <p>Written by: <span style="font-weight: 600;">Jagrut Sharma</span></p>
     </header>
 
     <article class="article">
-       
+
         <section>
 
-            <p>Have you ever visited any GitHub repository and found a project that you think is cool and want to make something like that or make it better. You would have noticed that there is a “README.md” file included that explains how the project works and what its features are in details. This “.md” file is known as markdown. It is a simple text format that is converted to HTML, without the need for writing tags. It is used in blogs, forums, readme file.</p>
-                
-            <p>It is used where we don’t need the full features of html like class, id, other attributes but just want the formatting. Main emphasis is given to readability. Here are some of the tips that would help you in writing a markdown.</p>
+            <p>Have you ever visited any GitHub repository and found a project that you think is cool and want to make
+                something like that or make it better. You would have noticed that there is a “README.md” file included
+                that explains how the project works and what its features are in details. This “.md” file is known as
+                markdown. It is a simple text format that is converted to HTML, without the need for writing tags. It is
+                used in blogs, forums, readme file.</p>
+
+            <p>It is used where we don't need the full features of html like class, id, other attributes but just want
+                the formatting. Main emphasis is given to readability. Here are some of the tips that would help you in
+                writing a markdown.</p>
 
         </section>
 
-        <p class="fact">Fun fact: Even Wikipedia uses a specialised markdown that they call as <span style="font-weight: 600;">wikitext</span>.</p>
+        <p class="fact">Fun fact: Even Wikipedia uses a specialised markdown that they call as <span
+                style="font-weight: 600;">wikitext</span>.</p>
 
         <section>
-            <h1 class="blog-main-heading">Heading</h1>
-            <p>The “#” keyword is used for defining a heading in markdown. There are six headings available that are defined based on number of “#” written before text.</p>
+            <h1 class="blog-main-heading">1. Heading</h1>
+            <p>The “#” keyword is used for defining a heading in markdown. There are six headings available that are
+                defined based on number of “#” written before text.</p>
 
-            
+            <figure>
+                <img class="img-blog-heading-1" src="./markdown-blog-images/1. heading.png">
+                <img class="img-blog-heading-2" src="./markdown-blog-images/1.1 heading-result.PNG">
+            </figure>
         </section>
+
+        <section>
+            <h1 class="blog-main-heading">2. Formatting Text</h1>
+            <p>Formatting text is something that is often required in anything that we write. Making text bold, italic
+                among other things. To make text bold you need to add “**” or underscore two times(“__” ) to prefix and
+                suffix of text. To make text italic, you need to add “*” or “_” to prefix and suffix. Similarly for a
+                strikethrough text, you need to add “~~”. To enter a line, you need to enter hyphen or underscore three
+                times “---” or “___””.</p>
+
+            <figure>
+                <img class="img-blog-formatting-1" src="./markdown-blog-images/2. Format-text.png">
+                <img class="img-blog-formatting-2" src="./markdown-blog-images/2.1 Format-text-result.PNG">
+            </figure>
+        </section>
+
+        <section>
+            <h1 class="blog-main-heading">3. Links and Images</h1>
+            <p>To enter a hyperlink, you can use the format <span style="font-weight: 600;">[Text] (Link)</span>. When
+                you click on the text, it takes you to the link. Other format you can use is <span
+                    style="font-weight: 600;">[Text] (Link "Title")</span>, the title element is displayed while
+                hovering.</p>
+
+            <figure>
+                <img class="img-blog-link-1" src="./markdown-blog-images/3. Links.png">
+                <img class="img-blog-link-2" src="./markdown-blog-images/3.1 links.gif">
+            </figure>
+
+            <p>For images the format to be used is, “ <span style="font-weight: 600;">![Text](Link of image)</span>”.
+            </p>
+
+            <figure>
+                <img class="img-blog-image-1" src="./markdown-blog-images/3.2 images.png">
+                <img class="img-blog-image-2" src="./markdown-blog-images/3.2 images-result.PNG">
+            </figure>
+        </section>
+
+        <section>
+            <h1 class="blog-main-heading">4. Bullet Points</h1>
+            <p>For writing bullet points, you just need to add “<span
+                    style="font-weight: 600; font-size: larger;">*</span>” before an item. If you add a <span
+                    style="font-weight: 600;">tab</span> and then add “<span
+                    style="font-weight: 600; font-size: larger;">*</span>”, it will automatically become a nested bullet
+                point.</p>
+
+            <figure>
+                <img class="img-blog-bullet-1" src="./markdown-blog-images/4. Lists.png">
+                <img class="img-blog-bullet-2" src="./markdown-blog-images/4. Lists-result.PNG">
+            </figure>
+        </section>
+
+        <section>
+            <h1 class="blog-main-heading">5. Code Block/Quote</h1>
+            <p>Writing a code block or quote can be used many times in your document. For a code block, you need to
+                write the code <span style="font-weight: 600;">between a block of ```</span> (backtick). Also, you can
+                write the name of the language after the opening of backtick block. <span style="font-weight: 600;">This
+                    command is git hub specific</span>.</p>
+            <p>For entering a quote, you just need to begin the sentence with “<span style="font-weight: 600;">></span>”
+                sign. </p>
+
+            <figure>
+                <img class="img-blog-code-1" src="./markdown-blog-images/5. Code block and quote.png">
+                <img class="img-blog-code-2" src="./markdown-blog-images/5.1 Code block and quote-result.PNG">
+            </figure>
+        </section>
+
+        <p class="last">That's it. These are some of the basic syntax of markdown. That will help you a lot in writing
+            and maintaining proper documentation. To learn more you can visit <a
+                href="https://www.markdownguide.org/basic-syntax/" target="_blank">this source</a></p>
+
     </article>
 
     <footer id="footer-scroll" class="footer">
@@ -82,4 +164,5 @@
     </footer>
 
 </body>
+
 </html>
