@@ -293,22 +293,22 @@ body {
 
 .article section figure .img-universal-selector{
     padding: 1rem;
-    width: 30rem;
+    width: 26rem;
 }
 
 .article section figure .img-blog-typeselector-1{
     padding: 1rem;
-    height: 20rem;
+    width: 30.5rem;
 }
 
 .article section figure .img-blog-typeselector-2{
     padding: 1rem;
-    width: 30rem;
+    height: 15rem;
 }
 
 .article section figure .img-blog-typeselector-3{
     padding: 1rem;
-    height: 20rem;
+    height: 15rem;
 }
 
 .article section figure .img-blog-class-id-selector-1, .article section figure .img-blog-class-id-selector-2{
@@ -323,12 +323,12 @@ body {
 
 .article section ol li div .img-blog-attribute-1{
     padding: 1rem;
-    width: 28rem;
+    width: 26rem;
 }
 
 .article section ol li div .img-blog-attribute-2{
     padding: 1rem;
-    height: 23rem;
+    height: 21.5rem;
 }
 
 .article section ol li div .img-blog-attribute-3{
