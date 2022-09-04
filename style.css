@@ -316,7 +316,7 @@ hr {
 
     .header {
         display: grid;
-        grid-template-columns: 0.5fr auto minmax(500px, 3fr) 1fr;
+        grid-template-columns: 0.5fr auto minmax(500px, 3fr) 0.5fr;
         width: 100%;
     }
 
