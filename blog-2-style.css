@@ -165,6 +165,21 @@ body {
     color: beige;
 }
 
+/* Blog Article and Images */
+
+.article {
+    max-width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.article section figure .img-blog-responsive, .article section ol li div .img-blog-responsive {
+    width: 100%;
+    padding-top: 0.5rem;
+}
+
+/* Responsive Navigation */
+
 @media screen and (min-width: 800px) {
 
     .nav-toggle-label {
@@ -220,6 +235,105 @@ body {
     .nav .list-non-bullet .normal-text-link:hover::before {
         transform: scale(1, 1);
     }
+
+    /* Images in Blog */
+
+    .article {
+        max-width: 60%;
+        text-align: justify;
+        margin: auto;
+    }
+
+    .article section figure{
+        margin: 0;
+    }
+    
+    .article section figure .img-universal-selector{
+        padding: 1rem;
+        width: 26rem;
+    }
+    
+    .article section figure .img-blog-typeselector-1{
+        padding: 1rem;
+        width: 30.5rem;
+    }
+    
+    .article section figure .img-blog-typeselector-2{
+        padding: 1rem;
+        height: 15rem;
+        width: auto;
+    }
+    
+    .article section figure .img-blog-typeselector-3{
+        padding: 1rem;
+        height: 15rem;
+        width: auto;
+    }
+    
+    .article section figure .img-blog-class-id-selector-1, .article section figure .img-blog-class-id-selector-2{
+        padding: 1rem;
+        height: 25rem;
+        width: auto;
+    }
+    
+    .article section figure .img-blog-class-id-selector-3{
+        padding: 1rem;
+        width: 28rem;
+    }
+    
+    .article section ol li div .img-blog-attribute-1{
+        padding: 1rem;
+        width: 26rem;
+    }
+    
+    .article section ol li div .img-blog-attribute-2{
+        padding: 1rem;
+        height: 21.5rem;
+        width: auto;
+    }
+    
+    .article section ol li div .img-blog-attribute-3{
+        padding: 1rem;
+        height: 20rem;
+        width: auto;
+    }
+    
+    .article section ol li div .img-blog-attribute-4{
+        padding: 1rem;
+        height: 18.5rem;
+        width: auto;
+    }
+    
+    .article section ol li div .img-blog-attribute-5{
+        padding: 1rem;
+        width: 30rem;
+    }
+    
+    .article section ol li div .img-blog-attribute-6{
+        padding: 1rem;
+        width: 31rem;
+    }
+    
+    .article section ol li div .img-blog-attribute-7{
+        padding: 1rem;
+        height: 16rem;
+        width: auto;
+    }
+    
+    .article section ol li div .img-blog-attribute-8{
+        padding: 1rem;
+        height: 16rem;
+        width: auto;
+    }
+    
+    .article section ol li div .img-blog-attribute-9{
+        padding: 1rem;
+        height: 16rem;
+        width: auto;
+    }
+    
+    /* Responsive Image Blog Ends */
+
 }
 /* Navigation ends */
 
@@ -239,12 +353,6 @@ body {
 
 .blog-header .blog-heading-focus {
     color: var(--primary-color);
-}
-
-.article {
-    max-width: 60%;
-    text-align: justify;
-    margin: auto;
 }
 
 .article .blog-main-heading {
@@ -286,85 +394,6 @@ body {
 }
 
 /* Image of blogs */
-
-.article section figure{
-    margin: 0;
-}
-
-.article section figure .img-universal-selector{
-    padding: 1rem;
-    width: 26rem;
-}
-
-.article section figure .img-blog-typeselector-1{
-    padding: 1rem;
-    width: 30.5rem;
-}
-
-.article section figure .img-blog-typeselector-2{
-    padding: 1rem;
-    height: 15rem;
-}
-
-.article section figure .img-blog-typeselector-3{
-    padding: 1rem;
-    height: 15rem;
-}
-
-.article section figure .img-blog-class-id-selector-1, .article section figure .img-blog-class-id-selector-2{
-    padding: 1rem;
-    height: 25rem;
-}
-
-.article section figure .img-blog-class-id-selector-3{
-    padding: 1rem;
-    width: 28rem;
-}
-
-.article section ol li div .img-blog-attribute-1{
-    padding: 1rem;
-    width: 26rem;
-}
-
-.article section ol li div .img-blog-attribute-2{
-    padding: 1rem;
-    height: 21.5rem;
-}
-
-.article section ol li div .img-blog-attribute-3{
-    padding: 1rem;
-    height: 20rem;
-}
-
-.article section ol li div .img-blog-attribute-4{
-    padding: 1rem;
-    height: 18.5rem;
-}
-
-.article section ol li div .img-blog-attribute-5{
-    padding: 1rem;
-    width: 30rem;
-}
-
-.article section ol li div .img-blog-attribute-6{
-    padding: 1rem;
-    width: 31rem;
-}
-
-.article section ol li div .img-blog-attribute-7{
-    padding: 1rem;
-    height: 16rem;
-}
-
-.article section ol li div .img-blog-attribute-8{
-    padding: 1rem;
-    height: 16rem;
-}
-
-.article section ol li div .img-blog-attribute-9{
-    padding: 1rem;
-    height: 16rem;
-}
 
 .article .last{
     margin-bottom: 3rem;
